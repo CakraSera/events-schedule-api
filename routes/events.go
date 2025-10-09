@@ -5,6 +5,7 @@ import (
 	"strconv"
 
 	"example.com/rest-api/models"
+	"example.com/rest-api/utils"
 	"github.com/gin-gonic/gin"
 )
 
@@ -34,14 +35,16 @@ func getEvent(context *gin.Context) {
 }
 
 func createEvents(context *gin.Context) {
+	
+
 	var event models.Event
 	// ShouldBindJSON Like Scanner
-	err := context.ShouldBindJSON(&event)
+	err = context.ShouldBindJSON(&event)
 	if err != nil {
 		context.JSON(http.StatusBadRequest, gin.H{"message": "Could not bind JSON"})
 	}
-	event.ID = 1
-	event.UserID = 1
+
+	event.UserID = userId
 
 	err = event.Save()
 

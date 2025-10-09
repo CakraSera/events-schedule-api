@@ -1,9 +1,10 @@
 POST http://localhost:9090/events
 content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NTk5NzU2NjMsInVzZXJJZCI6MX0._ImtJy_iG8t0iA42mGKOHhHHzsMkE7GSDobWSe9q3eQ
 
 {
-     "name": "Test event",
-     "description": "A test event",
+     "name": "Test event 1",
+     "description": "A test event1",
      "location": "A test location",
      "dateTime": "2025-01-01T15:30:00.000Z"
 }
