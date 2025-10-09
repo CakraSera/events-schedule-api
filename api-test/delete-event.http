@@ -1,1 +1,2 @@
-DELETE http://localhost:9090/events/2
+DELETE http://localhost:9090/events/1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYwMDI3NjE1LCJ1c2VySWQiOjJ9.oIzTkgW3gvMnzpPfyqfSmfhIepHSchdyzFt6Sdy8YdI

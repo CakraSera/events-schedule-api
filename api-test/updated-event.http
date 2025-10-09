@@ -1,5 +1,6 @@
 PUT http://localhost:9090/events/1
 content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYwMDI3MjIwLCJ1c2VySWQiOjJ9.UNg1TEZrm5MQe-f40Se8mZZ11EghPExUWY-dcD1cYfo
 
 {
     "name":"Updated Cakra",
